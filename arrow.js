@@ -20,3 +20,10 @@ console.log(name("Naveen")); // output : hi Naveen
 // function with zero parameters  
 let greet = () => "hi raa ela unnav"; 
 console.log(greet()); // output : hi raa ela unnav
+
+// return objects 
+let obj = name => {firstName : name};
+console.log(obj("Naveen")); // output : undefined because it take {} as functional block  to avoid this we add ()
+
+let obj1 = name => ({firstName : name,place:"Hyd"});
+console.log(obj1("Naveen"));
