@@ -1,4 +1,4 @@
-// factory function returns new object for each call and it follows camelCase notation 
+// ***** factory function returns new object for each call and it follows camelCase notation ******
 
 function createCar(color,brand){
     return {
