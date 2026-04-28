@@ -51,4 +51,21 @@
 
                 p1.sayHello(); // Hi, I am Mallikharjun
                 p2.sayHello(); // Hi, I am Ravi
+
+
+
+                Instance Specific Properties/ Methods: 
+                The Instance Specific Properties/ Methods are the properties or methods specific to the instance object.
+                function Person(firstName, lastName) {
+                    this.firstName = firstName;
+                    this.lastName = lastName;
+                }
+
+                Person.prototype.displayFullName = function() {
+                return this.firstName + " " + this.lastName;
+                };
+
+                let person1 = new Person("Virat", "Kohli");
+                console.log(Object.getOwnPropertyNames(person1));
+
 */
