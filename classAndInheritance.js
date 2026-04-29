@@ -1,6 +1,6 @@
 // class and objects
 
-class Student{
+class Student{  // class: blueprint to create real world objects
     constructor(name,marks){
         this.name = name;
         this.marks = marks;
@@ -11,8 +11,8 @@ class Student{
     }
 }
 
-let student1 = new Student("Naveen",500);
-let student2 = new Student("malli",550);
+let student1 = new Student("Naveen",500);   //object1 or instance1
+let student2 = new Student("malli",550);    //object2 or instance2
 console.log(student1.displayStudent());
 console.log(student2.displayStudent());
 
