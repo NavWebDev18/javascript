@@ -24,4 +24,33 @@ console.log(positiveNumbers);//[1,2,3,4]
 */
 let arr1 = [5,2,3,1,0];
 let borrow = arr1.reduce((acc,curr)=>  acc - curr);
-console.log(borrow);//-1
+console.log(borrow);//-1 
+
+// every method: check every value follow satified or not return true when every value follow the condition else false
+let arr2 = [1,2,39,5];
+let lessThan40 = arr2.every((each_number) => each_number<40);
+console.log(lessThan40); // true 
+
+// some method :he some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value. 
+const myAwesomeArray = ["a", "b", "c", "d", "e"];
+const result = myAwesomeArray.some((alphabet) => alphabet === "d");
+console.log(result); // true
+
+// reverse method: The reverse() method reverses the order of the elements in an array.The first array element becomes the last, and the last array element becomes the first 
+const arr3 = ["Naveen","malli","charan"];
+const reversedArr = arr3.reverse();
+console.log(reversedArr); //["charan","malli","Naveen"]
+
+/* 
+Mutable & Immutable methods
+Mutable methods will change the original array and Immutable methods won't change the original array.
+
+Mutable methods	    Immutable methods
+shift()	            map()
+unshift()	        filter()
+push()	            reduce()
+pop()	            forEach()
+sort()	            slice()
+reverse()	        join()
+splice(), etc.	    some(), etc.
+*/
