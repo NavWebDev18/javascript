@@ -42,7 +42,7 @@ const reversedArr = arr3.reverse();
 console.log(reversedArr); //["charan","malli","Naveen"]
 
 /* 
-Mutable & Immutable methods
+Mutable & Immutable methods:
 Mutable methods will change the original array and Immutable methods won't change the original array.
 
 Mutable methods	    Immutable methods
