@@ -54,3 +54,22 @@ sort()	            slice()
 reverse()	        join()
 splice(), etc.	    some(), etc.
 */
+
+// forEach() method : forEach() is an array method used to iterate (loop) through each element of an array.
+//syntax
+array.forEach(function(element, index, array) {
+   
+});
+//example code
+const numbers = [1, 2, 3];
+numbers.forEach((num) => {
+  console.log(num);
+});
+
+const fruits = ["apple", "banana", "orange"];
+
+fruits.forEach((fruit, index, arr) => {
+  console.log(fruit);//apple
+  console.log(index);//0
+  console.log(arr);//["apple", "banana", "orange"]
+});
