@@ -131,3 +131,5 @@ Think like this:
 | Arrow function       | parent scope     |
 | Strict mode function | undefined        |
 
+
+*/
